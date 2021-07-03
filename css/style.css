@@ -1,0 +1,153 @@
+/* RESET */
+body,
+h1,
+h3,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    background-color: #f2ebd5;
+    height: 96vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.divider {
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        #595645,
+        #716c4d,
+        #8a8254,
+        #a4995c,
+        #bfb063
+    );
+    width: 100%;
+}
+
+/* HEADER */
+
+header .logo {
+    width: 100%;
+    margin: 1.25rem 0;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 2.75rem;
+    line-height: 1;
+    color: #3400f0;
+    margin: 0.625rem;
+}
+
+/* BOX */
+
+.box {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 450px;
+    height: 320px;
+    margin: 0.625rem auto;
+}
+
+.box h3 {
+    margin: 1.25rem 0;
+    font-size: 1.25rem;
+    color: #595645;
+}
+
+.box .binary-content,
+.box .decimal-content {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.box .binary-content p,
+.box .decimal-content p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #595645;
+    font-weight: bold;
+}
+
+.box .binary-content input,
+.box .decimal-content input,
+.box button {
+    background-color: #f2ebd5;
+    width: calc(450px - 25%);
+    height: 40px;
+    padding: 0.625rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #bfb063;
+}
+
+.box .binary-content input::placeholder {
+    color: #595645;
+}
+
+.box .decimal-content input {
+    text-align: center;
+    color: #595645;
+}
+
+.box button {
+    transition: 0.3s;
+    color: #f2ebd5;
+    background-color: #595645;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.box button:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    text-align: center;
+    height: calc(100% - 400px);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.footer-content p {
+    margin-right: 0.625rem;
+    color: #3400f0;
+    font-weight: 500;
+}
+
+.footer-content a {
+    transition: 0.3s;
+}
+
+.footer-content a:hover {
+    transform: translateY(2px);
+}
