@@ -4,6 +4,8 @@
 
 Idea from [here](https://github.com/florinpop17/app-ideas).
 
+**Demo:** [Codesandbox](https://m697l.csb.app/)
+
 
 **Tier:** 1-Beginner
 
@@ -23,8 +25,3 @@ This challenge requires that the developer implementing it follow these constrai
 
 ### Bonus features
 + User can enter a variable number of binary digits
-
-## DEMO
-
-[Codesandbox](https://m697l.csb.app/)
-
